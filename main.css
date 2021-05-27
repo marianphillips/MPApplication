@@ -1,0 +1,156 @@
+h1, h3 {
+    font-family: 'Source Code Pro', monospace;
+}
+    .container {
+        font-size: 1.5em;
+}
+address { text-align: center; }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgba(200, 214, 200);
+        color: black;
+        width: 100%;
+        z-index: 1;
+}
+    .nav {
+        display: flex;
+        justify-content: right;
+        list-style: none;
+        margin-right: 10%;
+}
+    .navMe {
+        flex: 1 1 auto;
+        margin-left: 10%;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .navbar a {
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Source Code Pro', monospace;
+}
+    .navbar a:hover {
+        background-color: black;
+        color: white;
+}      
+    .header {
+        position: relative;
+        text-align: center;
+}
+    .homeContainer {
+        display: grid;
+        grid-template-columns: 170px 170px;
+        grid-template-rows: 170px 170px;
+        justify-content: center;
+        align-items: center;
+}
+    .homeBox {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: rgb(216, 211, 211);
+        font-weight: bold;
+        background-size: cover;
+        position: relative;
+        text-align: center;  
+}
+.homeBox:hover {
+        opacity: 50%;
+        color: black;
+} 
+.why {
+    background-image: url('https://www.parkersoftware.com/wp-content/uploads/2020/10/pankaj-patel-_SgRNwAVNKw-unsplash-scaled.jpg'); 
+}
+.fandc {
+    background-image: url('https://nationalcareersweek.com/wp-content/uploads/2018/05/career-3386334_1920.jpg');    
+}
+.interests {
+    background-image: url('https://getinfolist.com/wp-content/uploads/2016/04/20190712-hobbies-blog.jpg');         
+}
+.contact {
+    background-image: url('https://www.webdesignerdepot.com/cdn-origin/uploads/2018/07/featured_links.jpg');        
+}
+    .smaller-image { 
+        width: 400px;
+        height: auto; 
+}
+    .carousel {
+        align-items: center;
+        display: flex; 
+        margin: 2rem auto;
+        overflow: hidden;
+        position: relative;
+        width: 400px;
+        height: auto;
+}
+    .carousel2 {
+        display: flex;
+        transform: translateX(0);
+        transition: transform 0.5s;
+}
+    .button {
+        border-radius: 50%;
+        position: absolute;
+        height: 3rem;
+        width: 3rem;
+        opacity: 0.3;
+        z-index: 1;
+}
+     .previous {
+        left: 5px;
+}
+    .next {
+        right: 5px;
+}
+   .content {
+        background: white;
+        padding: 1% 20% 5% 20%;
+}
+   .footer {
+        font-size: 16px;
+        grid-row: 5 / 6;
+        grid-column: 1 / 2;
+}
+    .circle {
+        border-radius: 50%;
+        width: 150px;
+        height: auto;
+}
+    .iconContainer {
+        display: flex;
+        height: 120px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+    .icon {
+        width: 80px;
+        height: auto;
+        margin: 20px;
+        align-self: center;
+}
+
+    .interestsText {
+        text-align: center;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    #links {
+        text-align: center;
+    }
